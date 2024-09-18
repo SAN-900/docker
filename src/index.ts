@@ -9,7 +9,7 @@ const client = new PrismaClient();
 
 app.get("/", (req, res) => {
     res.json({
-        message: "Healthy server"
+        message: "Created server from newly generated terms"
     })
 })
 
@@ -22,7 +22,7 @@ app.post("/", async (req, res) => {
     })
 
     res.json({
-        message: "Done signing up!"
+        message: "signing up!"
     })
 })
 
